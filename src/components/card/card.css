@@ -1,0 +1,61 @@
+.paginA{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.catalog{
+    background-color: white;
+}
+.menu-link{
+    font-size: 20px;
+    padding: 10px 30px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    transition: all ease-in-out 0.3s;
+}
+.menu-link:hover{
+    background-color: black;
+    color: white;
+}
+.catalog-menu{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.element{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    gap: 15px;
+}
+.catalog-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-form{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.catalog-blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+    padding-top: 40px;
+}
+.catalog-content{
+    padding: 100px  0;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.catalog-inform{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}

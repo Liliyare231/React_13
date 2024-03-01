@@ -1,0 +1,45 @@
+.banner {
+    background-image: url(../banner/imgBanner/banner.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.title{
+    font-size: 32px;
+    color: white;
+}
+.banner_title{
+    font-size: 32px;
+    color: white;
+}
+.banner-btn{
+    color: white;
+    padding: 15px 30px;
+    background-color: #735184;
+    border-radius: 10px ;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.accordion_banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-bottom: 100px;
+    
+}
+.accordion_banner h2{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 90px;
+}
